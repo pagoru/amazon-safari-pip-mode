@@ -5,7 +5,7 @@ Start Amazon instant video in Safari (macOS) and use Picture in Picture Mode.
 1. Start stream on amazon
 2. Open console (Web Inspector) (CMD+ALT+i)
   * Safari dev. tools should be aktivated [how to](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html)
-3. Past this:
+3. Paste this:
 ``` javascript
 Object.values(document.getElementsByTagName('video')).forEach(video => video.webkitSetPresentationMode("picture-in-picture"));
 ```
